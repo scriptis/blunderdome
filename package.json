@@ -1,0 +1,36 @@
+{
+  "name": "blunderdome",
+  "license": "MIT",
+  "author": {
+    "name": "Scriptis",
+    "email": "scriptis@duck.com"
+  },
+  "private": true,
+  "scripts": {
+    "build": "tstl",
+    "dev": "tstl --watch"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "eslint": "8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "typedoc": "^0.23.23",
+    "typescript": "^4.9.4",
+    "typescript-to-lua": "^1.12.1",
+    "lua-types": "^2.13.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:prettier/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "root": true
+  }
+}

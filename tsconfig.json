@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext"],
+    "moduleResolution": "node",
+    "types": [
+      "lua-types/5.1",
+      "@typescript-to-lua/language-extensions"
+    ],
+    "strict": true
+  },
+  "tstl": {
+    "luaTarget": "5.1",
+    "noHeader": true,
+    "luaBundleEntry": "src/index.ts",
+    "luaBundle": "build/blunderdome.lua",
+    "noImplicitSelf": true
+  }
+}
