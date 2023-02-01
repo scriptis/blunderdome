@@ -291,7 +291,8 @@ for (const [x, y] of SPAWN_LOCATIONS) {
         SS13.unregister_signal(body, "living_death");
         SS13.unregister_signal(body, "living_health_update");
         SS13.unregister_signal(body, "movable_moved");
-        SS13.await(body, "dust", false, false, true);
+        SS13.new("/obj/effect/decal/remains/human", body.get_var("loc"));
+        dm.global_proc("qdel", body);
       };
 
       // Turn to dust when we die...
