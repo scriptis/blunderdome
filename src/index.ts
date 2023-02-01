@@ -108,10 +108,6 @@ const GUNS: [string, string?][] = [
   ["/obj/item/gun/ballistic/rifle/boltaction", "/obj/item/ammo_box/a762"],
   ["/obj/item/gun/ballistic/automatic/ar", "/obj/item/ammo_box/magazine/m556"],
   [
-    "/obj/item/gun/ballistic/automatic/proto",
-    "/obj/item/ammo_box/magazine/smgm9mm",
-  ],
-  [
     "/obj/item/gun/ballistic/automatic/c20r",
     "/obj/item/ammo_box/magazine/smgm45",
   ],
