@@ -48,6 +48,10 @@ const WALL_BRUSHES: [[number, number], [number, number], string][] = [
   [[164, 102], [152, 102], "/turf/closed/indestructible/fakeglass"],
   [[152, 101], [152, 100], "/turf/closed/indestructible/fakeglass"],
 
+  // Centcom office
+  [[146, 97], [141, 97], "/turf/closed/indestructible/fakeglass"],
+  [[141, 96], [141, 91], "/turf/closed/indestructible/fakeglass"],
+
   // Pod bay window
   [[199, 62], [199, 61], "/turf/closed/indestructible/fakeglass"],
 
