@@ -19,3 +19,7 @@ npm run build
 ```
 
 Then copy the contents of `build/blunderdome.lua` into the admin Lua editor in `Debug => Open Lua Editor`.
+
+## License
+
+GPLv3. See `LICENSE`.
